@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "metalai"
+version = "0.1.0"
+description = "Generative AI based on Metallica lyrics"
+authors = ["<dan@socaciu.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.1.1"
+numpy = "^1.26.2"
+pandas = "^2.1.3"
+requests = "^2.31.0"
+bs4 = "^0.0.1"
+pytest = "^7.4.3"
+tiktoken = "^0.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
